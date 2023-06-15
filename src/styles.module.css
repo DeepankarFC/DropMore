@@ -1,0 +1,45 @@
+#navBar {
+    height: 361px;
+}
+
+#imageId {
+    height: 361px;
+    width: auto;
+}
+
+#imageContainer {
+    height: 361px;
+    overflow-x: hidden;
+}
+
+#logo {
+    width: 233px;
+    position: relative;
+    top: -328px;
+    left: 50px;
+
+}
+
+#loginSignUp {
+    color: #FFFFFF;
+    position: relative;
+    float: right;
+    right: 100px;
+    top: -328px;
+    text-decoration: none;
+}
+
+@media (max-width:500px) {
+    #loginSignUp {
+        top: -270px;
+        ;
+        right: 40vw;
+        position: relative;
+    }
+
+    #logo {
+        position: relative;
+        top: -328px;
+        left: 20vw;
+    }
+}
